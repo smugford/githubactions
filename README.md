@@ -14,5 +14,29 @@
  <p> 8 </p>
  <p> 9 </p>
  <p> 10 </p>
+<table>
+<TR>
+   <TD class="c1"><IMG src="favicon.ico"></TD>
+   <TD class="c2">0</TD>
+   <TD class="c3">0</TD>
+   <TD class="c4"><SPAN>0</SPAN></TD>
+   <TD class="c5"><SPAN>0</SPAN></TD>
+</TR>
+<TR>
+   <TD class="c1"><IMG src="favicon.ico"></TD>
+   <TD class="c2">1</TD>
+   <TD class="c3">1</TD>
+   <TD class="c4"><SPAN>1</SPAN></TD>
+   <TD class="c5"><SPAN>1</SPAN></TD>
+</TR>
+<TR>
+   <TD class="c1"><IMG src="favicon.ico"></TD>
+   <TD class="c2">2</TD>
+   <TD class="c3">2</TD>
+   <TD class="c4"><SPAN>2</SPAN></TD>
+   <TD class="c5"><SPAN>2</SPAN></TD>
+</TR>
+</table>
+
 </body>
 </html>
