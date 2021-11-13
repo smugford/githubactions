@@ -41,3 +41,10 @@ jobs:
         with:
           # Command to execute
           command: ansible-playbook playbook.yml # default is ansible-playbook
+      - name: commit generated output
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add testfile.txt
+          git commit -m "generated"
+          git push
