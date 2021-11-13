@@ -1,6 +1,8 @@
 ---
-      
-- name: Template a file to /etc/file.conf
-  ansible.builtin.template:
-    src: /templates/readme.j2
-    dest: README.md
+- name: Create Readme from Jinja Template
+  hosts: localhost
+  tasks:
+    - name: Create README using Jinja2
+      template:
+        src: readme.j2
+        dest: README.md
