@@ -4,5 +4,5 @@
   tasks:
     - name: Create File
       copy:
-        content: #AUTOMATED README
+        content: hello world
         dest: README.md
