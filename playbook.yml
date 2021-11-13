@@ -1,8 +1,6 @@
 ---
-- name: This is a hello-world example
-  hosts: localhost
-  tasks:
-    - name: Create File
-      copy:
-        content: hello world
-        dest: README.md
+      
+- name: Template a file to /etc/file.conf
+  ansible.builtin.template:
+    src: /templates/readme.j2
+    dest: README.md
